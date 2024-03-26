@@ -1,0 +1,28 @@
+const url = "https://res.cloudinary.com/unaiscloudinary/sem 5/ycmgshbooo8fugwpwbke"
+async function getImg() {
+    try {
+        const response = await fetch(id);
+        const data = await response.blob();
+        renderImage(data);
+    } catch (error) {
+        console.warn(error);
+    }
+
+
+}
+function renderImage(blob) {
+    // Create a Blob URL
+    const blobUrl = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.style.color = 'green'
+    a.style.fontSize = '4rem'
+
+    a.href = blobUrl;
+    a.target = '_blank'; // Open link in a new tab
+    a.textContent = 'Click here';
+    document.body.appendChild(a);
+
+
+}
+getImg();

@@ -159,3 +159,10 @@ var swiper = new Swiper(".blogs-slider", {
   },
 });
 
+
+
+
+
+function redirect(){
+  return location.href='https://res.cloudinary.com/unaiscloudinary/sem 5/e12p3bmzc6lo9bdwg9vx'
+}
