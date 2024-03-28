@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C PROGRAMMING</title>
+    <title>ENGG.CHEM</title>
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
@@ -21,18 +21,18 @@
     </header>
     <section class="resource" id="resource">
 
-        <h1 class="heading"> <span>C PROGRAMMING</span> </h1>
+        <h1 class="heading"> <span>ENGINEEERING CHEMISTRY</span> </h1>
 
         
-            <div class="box-wrapper">
+            <div class="box-wrapper" data-id="notes">
 
-                <div class="box" id="box" onclick="location.href= 'notes.html'">
+                <div class="box" id="box">
                     <img src="../../image/semester/notes.png" alt="" >
                     <h3>SUBJECT NOTES</h3>
                     
                     
                 </div>
-                <div class="box"  onclick="location.href= 'pyq.html'">
+                <div class="box" data-id="pyq">
                     <img src="../../image/semester/paper.png"  alt="">
                     <h3>PREVIOUS YEAR PAPER</h3>
                     
@@ -41,19 +41,20 @@
                 
                 
                 
-                <div class="box" >
+                <div class="box" data-id="books" >
                     <img src="../../image/semester/book.png"  alt="">
                     <h3>REFRENCES BOOKS</h3>
                     
                 </div>
-                <div class="box">
+                <div class="box" data-id="kceInternals">
                     <img src="../../image/semester/internal paper.png"  alt="">
                     <h3> KCE INTERNALS</h3>
             </div>
             </div>
-            <!-- SECOND LINE -->
             
-       
+            <script src="../../js/redirect.js"></script>
+            <script src="../../js/renderUI.js"></script>
+
     </section>
 </body>
 </html>
