@@ -12,7 +12,8 @@
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 .comp-res{
-    background-color:rgb(255, 165, 255) ;
+    background-color:#e5e3e3 ;
+    border-radius: 10px;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -356,6 +357,7 @@ section{
 .resource  .box{
     border:var(--border);
     padding:2rem;
+    width: 80vw;
     text-align: center;
     margin:2rem 1rem;
 }
